@@ -13,7 +13,7 @@ class Song
   def self.genres
     genre_list = [ ]
     @@genres.each do |genre|
-      if genre_list.include?(genre) == join
+      if genre_list.include?(genre) == false
         genre_list << genre
       end
     end
